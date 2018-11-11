@@ -5,6 +5,11 @@
       "sourceExts": ["ts", "tsx"],
       "transformer": "node_modules/react-native-typescript-transformer/index.js"
     },
-    "scheme": "co.bncstudios.virtual-bookshelf"
+    "scheme": "co.bncstudios.virtual-bookshelf",
+    "splash": {
+      "backgroundColor": "#000",
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    }
   }
 }
