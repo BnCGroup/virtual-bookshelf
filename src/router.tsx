@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Animated, Easing } from 'react-native';
 import { createSwitchNavigator, NavigationComponent } from 'react-navigation';
 
 import NavigationService from './lib/mobile/services/navigation-service';

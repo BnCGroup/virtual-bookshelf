@@ -1,7 +1,5 @@
-import Axios from 'axios';
-import { AppLoading, Permissions } from 'expo';
+import { AppLoading } from 'expo';
 import * as React from 'react';
-import { Alert, AsyncStorage } from 'react-native';
 
 import {
   cacheFonts,

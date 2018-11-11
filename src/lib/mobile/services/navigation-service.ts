@@ -2,7 +2,6 @@ import {
   NavigationActions,
   NavigationComponent,
   NavigationNavigateAction,
-  NavigationNavigateActionPayload,
   NavigationParams,
 } from 'react-navigation';
 
