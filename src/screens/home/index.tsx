@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default class AppScreen extends React.Component {
+export default class HomeScreen extends React.Component {
   public render() {
     return (
       <View style={styles.container}>

@@ -1,9 +1,9 @@
 import * as React from 'react';
-import AppScreen from '.';
+import AuthScreen from '.';
 
 import * as renderer from 'react-test-renderer';
 
 it('renders without crashing', () => {
-  const rendered = renderer.create(<AppScreen />).toJSON();
+  const rendered = renderer.create(<AuthScreen />).toJSON();
   expect(rendered).toBeTruthy();
 });
